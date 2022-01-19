@@ -1,0 +1,234 @@
+*{
+  font-family: Roboto;
+  font-weight: bold;
+  margin: 0;
+}
+
+.first{
+  background-image: url("/images/first-section/background.webp");
+  background-repeat: no-repeat;
+}
+
+.description{
+font-size: 26px;
+line-height: 34px;
+color: #F6F7E4;
+text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+max-width: 439px;
+max-height: 102px;
+margin-left: 100px;
+}
+
+.logo{
+  background-image: url("/images/first-section/background-logo.webp");
+  background-repeat: no-repeat;
+  margin-top: 23px;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  gap: 417px;
+}
+
+.info{
+  background-image: url("/images/first-section/background-info.webp");
+  background-repeat: no-repeat;
+  display: flex;
+  gap: 51px;
+  height: 93px;
+  width: 426px;
+  padding-left: 77px;
+  padding-top: 25px;
+  margin-top: 27px;
+}
+
+.order{
+  width: 64px;
+  height: 23px;
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration-line: underline;
+  color: #715D00;
+}
+
+.first-title{
+font-size: 52px;
+line-height: 61px;
+text-align: center;
+color: #F9E994;
+}
+
+.left-section{
+  margin-left: 150px;
+  width: 323px;
+  height: 266px;
+}
+
+ul{
+  background: #7FB3E1;
+  border-radius: 20px;
+  max-width: 323px;
+  max-height: 266px;
+  padding: 35px 3px 38px 35px;
+  list-style-image: url("/images/first-section/black-cat-footprint.webp");
+}
+
+li{
+  padding-left: 17px;
+  padding: 20px;
+  max-width: 258px;
+  max-height: 52px;
+}
+
+.info-section{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.centre-image{
+  align-items: center;
+}
+
+.cat1{
+  max-width: 1920px;
+  max-height: 844px;
+  margin-left: -100px;
+  margin-bottom: 70px;
+}
+
+.cat-feed{
+  margin-left: -170px;
+  margin-bottom: 100px;
+}
+
+.cat2{
+  margin-left: -170px;
+  margin-bottom: 70px;
+}
+
+form{
+  max-width: 270px;
+  max-height: 462px;
+  margin-bottom: 100px;
+  background-color: #FFFFFF;
+}
+
+.information{
+  max-width: 270px;
+  max-height: 190px;
+  background-image: url("/images/first-section/for-timer.webp");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+h3{
+  max-width: 162px;
+  max-height: 39px;
+  font-size: 33px;
+  line-height: 39px;
+  color: #483C08;
+}
+
+h5{
+  width: 102px;
+  height: 35px;
+  font-size: 30px;
+  line-height: 35px;
+  color: #6B6B6B;
+}
+
+h4{
+  width: 101px;
+  height: 42px;
+  font-size: 36px;
+  line-height: 42px;
+  color: #483C08;
+}
+
+.submit{
+  width: 222px;
+  height: 50px;
+  background: #A1D337;
+  font-size: 30px;
+  line-height: 35px;
+  color: #FFFFFF;
+  align-items: center;
+}
+
+input{
+  background: #F3EFEF;
+  border-radius: 30px;
+  background-image: url("/images/first-section/grey-cat-footprint.webp");
+  background-repeat: no-repeat;
+  margin: 21px 24px 15px 24px;
+  padding: 16px 124px 15px 55px;
+}
+
+.second{
+  background-image: url("/images/second-section/background.webp");
+  background-repeat: no-repeat;
+}
+
+.second-title{
+  font-size: 52px;
+  line-height: 61px;
+  text-align: center;
+  background: linear-gradient(#F9E994, #537D13, #483C08);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 100px;
+}
+
+.about{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 85px;
+  margin-top: 61px;
+}
+
+.card{
+  width: 305px;
+  height: 439px;
+  background: #F6E791;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #483C08;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  justify-content: space-between;
+}
+
+.mini-card-img {
+  display: flex;
+  height: 50%;
+}
+
+.mini-card{
+  height: 50%;
+  text-align: center;
+  background: rgba(161, 211, 55, 0.4);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 16px 24px 16px;
+  gap: 20px;
+}
+
+.about-title{
+  height: 26px;
+  font-size: 22px;
+  line-height: 26px;
+  color: #FFFFFF;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
