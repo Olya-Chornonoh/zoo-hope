@@ -17,18 +17,23 @@ text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
 max-width: 439px;
 max-height: 102px;
 margin-left: 100px;
+margin-top: 42px;
 }
 
 .logo{
   background-image: url("/images/first-section/background-logo.webp");
   background-repeat: no-repeat;
   margin-top: 23px;
+  width: 329px;
+  height: 113px;
+  padding: 12px 20px 12px 26px;
 }
 
 header{
   display: flex;
-  align-items: center;
-  gap: 417px;
+  justify-content: center;
+  gap: 320px;
+  /* margin-left: 100px; */
 }
 
 .info{
@@ -39,7 +44,7 @@ header{
   height: 93px;
   width: 426px;
   padding-left: 77px;
-  padding-top: 25px;
+  padding-top: 37px;
   margin-top: 27px;
 }
 
@@ -57,12 +62,14 @@ font-size: 52px;
 line-height: 61px;
 text-align: center;
 color: #F9E994;
+margin-top: 32px;
 }
 
 .left-section{
-  margin-left: 150px;
   width: 323px;
   height: 266px;
+  margin-bottom: 100px;
+  margin-top: 100px;
 }
 
 ul{
@@ -84,12 +91,13 @@ li{
 .info-section{
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
+  justify-content: center;
 }
 
 .centre-image{
-  align-items: center;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
 }
 
 .cat1{
@@ -97,16 +105,19 @@ li{
   max-height: 844px;
   margin-left: -100px;
   margin-bottom: 70px;
+  z-index: 3;
 }
 
 .cat-feed{
   margin-left: -170px;
   margin-bottom: 100px;
+  z-index: 2;
 }
 
 .cat2{
   margin-left: -170px;
   margin-bottom: 70px;
+  z-index: 3;
 }
 
 form{
@@ -123,6 +134,7 @@ form{
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 h3{
@@ -207,6 +219,7 @@ input{
   align-items: center;
   padding: 15px;
   justify-content: space-between;
+  margin-bottom: 101px;
 }
 
 .mini-card-img {
@@ -232,3 +245,44 @@ input{
   color: #FFFFFF;
   text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
 }
+
+.third{
+  background: linear-gradient(180deg, #E1EDF8 0%, 
+  rgba(127, 179, 225, 0) 59.37%, rgba(0, 0, 0, 0.25) 100%);
+}
+
+.third-title{
+  font-size: 52px;
+  line-height: 61px;
+  text-align: center;
+  color: #537D13;
+  padding-top: 100px;
+}
+
+.result{
+  width: 622px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #483C08;
+  background-image: url("/images/third-section/Rectangle.webp");
+  background-repeat: no-repeat;
+  padding: 40px 98px 65px 40px;
+  /* margin-top: 98px; */
+}
+
+.info-result{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 126px;
+  margin-top: 85px;
+  margin-bottom: 64px;
+}
+
+.space{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
