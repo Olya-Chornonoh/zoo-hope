@@ -4,6 +4,11 @@
   margin: 0;
 }
 
+br{
+  margin: 0;
+  padding: 0;
+}
+
 .first{
   background-image: url("/images/first-section/background.webp");
   background-repeat: no-repeat;
@@ -83,8 +88,8 @@ li{
 .info-section{
   display: flex;
   flex-direction: row;
-  justify-content: center;
   margin-bottom: 100px;
+  margin-left: 170px;
 }
 
 .centre-image{
@@ -103,9 +108,7 @@ li{
 .cat-feed{
   margin-left: -165px;
   z-index: 2;
-  margin-top: 20px;
-  height: 90%;
-  width: 90%;
+  margin-top: -15px;
 }
 
 .cat2{
@@ -132,6 +135,7 @@ li{
   flex-direction: column;
   justify-content: space-evenly;
   gap: 7;
+  align-items: center;
 }
 
 .info-section-card{
@@ -142,6 +146,7 @@ li{
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  padding-bottom: 10px;
 }
 
 .time-left{
@@ -203,6 +208,7 @@ input:focus{
   padding: 10px 0px 5px 10px;
   margin: 21px 24px 15px 24px;
   height: 50px;
+  align-items: center;
 }
 
 .submit{
@@ -214,7 +220,6 @@ input:focus{
   margin: 21px 24px 15px 28px;
   line-height: unset;
   max-width: unset;
-  text-align: center;
 }
 
 .order-date{
@@ -319,14 +324,9 @@ input:focus{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 126px;
+  gap: 30px;
   margin-top: 85px;
   margin-bottom: 64px;
-}
-
-.space{
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 .grass{
@@ -340,12 +340,19 @@ input:focus{
   .about {
     flex-direction: column;
     gap: 15px;
-    width: 100%;
+    width: 95%;
     margin: 5px;
+    justify-content: unset;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .order{
+    font-size: 15px;
   }
 
   .card{
-    width: unset;
+    width: 80%;
     margin-bottom: unset;
     height: unset;
     margin: 10px;
@@ -355,6 +362,10 @@ input:focus{
   .info-section{
     margin-bottom: 35px;
     flex-direction: column;
+    justify-content: unset;
+    align-items: center;
+    width: 95%;
+    margin-left: 0;
   }
 
   .info-result{
@@ -362,6 +373,9 @@ input:focus{
     gap: 30px;
     margin-top: 25px;
     margin-bottom: 10px;
+    justify-content: unset;
+    align-items: center;
+    width: 90%;
   }
   
   header{
@@ -369,6 +383,7 @@ input:focus{
     gap: unset;
     z-index: 1;
     margin-bottom: 135px;
+    width: 95%;
   }
 
   .info{
@@ -378,10 +393,11 @@ input:focus{
     justify-content: center;
     margin-top: -140px;
     z-index: 2;
+    width: 95%;
   }
 
   .logo{
-    width: 100%;
+    width: 95%;
     background-image: unset;
     padding: 0;
     text-align: center;
@@ -392,18 +408,26 @@ input:focus{
   .first-title{
     font-size: 45px;
     width: 90%;
+    margin-block-start: 0;
+    margin-block-end: 0;
   }
 
   .description{    
     margin: 0;
     padding: 10px;
     width: 90%;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
   }
 
   .left-section{
-    width: 85%;
+    width: 75%;
     margin-top: 25px;
-    margin-left: 25px;
+  }
+
+  ul{
+    padding: 10px 0 10px 35px;
   }
 
   .centre-image{
@@ -432,16 +456,20 @@ input:focus{
   }
 
   .card-form{
-    margin-left: 25px;
+    margin-left: 0;
     margin-top: 25px;
   }
 
   .second-title{
     margin: 0;
+    font-size: 45px;
   }
 
   .third-title{
     padding-top: 45px;
+    font-size: 45px;
+    width: 90%;
+    margin-left: 15px;
   }
 
   .result{
@@ -451,13 +479,83 @@ input:focus{
     margin-left: 10px;
   }
 
-  .grass{
-    width: 100%;
-  }
-
   .cat-img{
     width: 90%;
     height: 90%;
     display: flex;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) { 
+  header{
+    gap: 30px;
+  }
+
+  .info{
+    gap: 45px;
+    background-image: unset;
+  }
+
+  .first-title{
+    margin-top: 15px;
+    font-size: 45px;
+  }
+
+  .info-section{
+    justify-content: unset;
+    align-items: center;
+  }
+
+  .cat1{
+    width: 50%;
+    margin-right: 90px;
+    height: 60%;
+    margin-top: 0;
+    margin-left: -75px;
+  }
+
+  .cat-feed{
+    width: 85%;
+    height: 65%;
+  }
+
+  .cat2{
+    width: 50%;
+    height: 60%;
+    margin-left: -75px;
+    margin-top: 0;
+  }
+
+  .card-form{
+    width: 50%;
+  }
+
+  .about{
+    flex-direction: column;
+    justify-content: unset;
+    align-items: center;
+    gap: unset;
+  }
+
+  .card{
+    height: unset;
+    margin-bottom: 35px;
+  }
+
+  .info-result{
+    flex-direction: column;
+    gap: 20px;
+    justify-content: unset;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: 60px;
+  }
+
+  .result{
+    width: 72%;
+    font-size: 15px;
+    line-height: 21px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
