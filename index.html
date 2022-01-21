@@ -8,6 +8,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="./css/style.css">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <script src="https://unpkg.com/imask"></script>
 </head>
 
 <body>
@@ -38,7 +39,7 @@
         <img class="cat-feed" src="/images/first-section/pack-of-feed.webp">
         <img class="cat2" src="/images/first-section/cat2.webp">
       </div>
-      <div class="card-form">
+      <div class="card-form" id="card-form">
         <div class="info-section-card">
           <h1 class="time-left">TIME LEFT</h1>
           <p id="countdown" class="countdown">2:00:00</p>
@@ -53,8 +54,14 @@
           </div>
         </div>
         <form class="info-form">
-          <input type="text" name="name" id="name" value="Name">
-          <input type="text" name="number" id="number">
+          <div class="footprint">
+            <img src="/images/first-section/grey-cat-footprint.webp">
+            <input type="text" name="name" id="name" value="Name">
+          </div>
+          <div class="footprint">
+            <img src="/images/first-section/grey-cat-footprint.webp">
+            <input type="text" name="phone" id="phone" placeholder="+38(0__)___-__-__">
+          </div>
           <input type="submit" value="ORDER" class="submit">
           <p class="order-date" id="order-date"></p>
         </form>
@@ -119,7 +126,7 @@
         inducing events and for long-term use to help manage everyday stress.
       </article>
       <div class="cat-img">
-      <img src="/images/third-section/cat.webp">
+        <img src="/images/third-section/cat.webp">
       </div>
     </div>
     <div class="grass">

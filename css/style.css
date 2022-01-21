@@ -184,19 +184,37 @@ li{
 
 input{
   background: #F3EFEF;
+  border:none;
+  font-size: 16px;
+  line-height: 19px;
+  max-width: 75%;
+  color: #777777;
+}
+
+input:focus{
+  border: none;
+}
+
+.footprint{
+  display: flex;
+  flex-direction: row;
+  background: #F3EFEF;
   border-radius: 30px;
-  width: 222px;
-  height: 50px;
-  background-image: url("/images/first-section/grey-cat-footprint.webp");
-  background-repeat: no-repeat;
+  padding: 10px 0px 5px 10px;
   margin: 21px 24px 15px 24px;
+  height: 50px;
 }
 
 .submit{
   background: #A1D337;
   font-size: 30px;
+  border-radius: 30px;
   color: #FFFFFF;
-  padding: 7px 63px 8px 63px;
+  padding: 7px 63px 8px 55px;
+  margin: 21px 24px 15px 28px;
+  line-height: unset;
+  max-width: unset;
+  text-align: center;
 }
 
 .order-date{

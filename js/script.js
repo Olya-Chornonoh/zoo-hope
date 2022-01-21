@@ -28,4 +28,10 @@ window.onload = function() {
   let date = today.getDate().toString().padStart(2, '0') + '.' + (today.getMonth() + 1).toString().padStart(2, '0') + '.' + today.getFullYear();
 
   orderDate.textContent = 'Order date: ' + date;
+
+
+  IMask(
+    document.getElementById('phone'), {
+      mask: '+{38}(000)000-00-00'
+    });
 }
