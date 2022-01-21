@@ -15,8 +15,6 @@
   line-height: 34px;
   color: #F6F7E4;
   text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
-  max-width: 439px;
-  max-height: 102px;
   margin-left: 100px;
   margin-top: 25px;
 }
@@ -25,27 +23,24 @@
   background-image: url("/images/first-section/background-logo.webp");
   background-repeat: no-repeat;
   margin-top: 23px;
-  width: 329px;
-  height: 113px;
   padding: 12px 20px 12px 26px;
 }
 
 header{
   display: flex;
   justify-content: center;
-  gap: 320px;
+  gap: 410px;
 }
 
 .info{
   background-image: url("/images/first-section/background-info.webp");
   background-repeat: no-repeat;
   display: flex;
-  gap: 40px;
-  height: 93px;
-  width: 426px;
+  gap: 55px;
   padding-left: 50px;
   padding-top: 37px;
   margin-top: 27px;
+  padding-right: 85px;
 }
 
 .order{
@@ -67,8 +62,6 @@ header{
 }
 
 .left-section{
-  width: 323px;
-  height: 266px;
   margin-bottom: 100px;
   margin-top: 100px;
 }
@@ -111,7 +104,8 @@ li{
   margin-left: -165px;
   z-index: 2;
   margin-top: 20px;
-  height: 388px;
+  height: 90%;
+  width: 90%;
 }
 
 .cat2{
@@ -125,6 +119,7 @@ li{
   margin-left: -75px;
   width: 270px;
   height: 462px;
+  padding-bottom: 15px;
 }
 
 .info-form{
@@ -202,6 +197,15 @@ input{
   font-size: 30px;
   color: #FFFFFF;
   padding: 7px 63px 8px 63px;
+}
+
+.order-date{
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #444444;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 10px 44px 20px 42px;
 }
 
 .second{
@@ -284,14 +288,13 @@ input{
 }
 
 .result{
-  /* width: 622px; */
   font-weight: normal;
   font-size: 18px;
   line-height: 23px;
   color: #483C08;
   background-image: url("/images/third-section/Rectangle.webp");
   background-repeat: no-repeat;
-  padding: 40px 98px 65px 40px;
+  padding: 40px 170px 65px 40px;
 }
 
 .info-result{
@@ -309,26 +312,134 @@ input{
 }
 
 .grass{
-  overflow-x: clip;
+  overflow-x: hidden;
+  background-image: url("/images/third-section/grass.webp");
+  background-repeat: no-repeat;
+  height: 175px;
 }
 
 @media (max-width: 576px) {
   .about {
     flex-direction: column;
-    gap: 15px
+    gap: 15px;
+    width: 100%;
+    margin: 5px;
   }
 
   .card{
-    width: 100%;
+    width: unset;
     margin-bottom: unset;
+    height: unset;
+    margin: 10px;
+    justify-content: center;
   }
 
   .info-section{
-    
+    margin-bottom: 35px;
     flex-direction: column;
   }
 
   .info-result{
     flex-direction: column;
+    gap: 30px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+  
+  header{
+    flex-direction: column;
+    gap: unset;
+    z-index: 1;
+    margin-bottom: 135px;
+  }
+
+  .info{
+    background-image: unset;
+    padding: 0;
+    gap: 15px;
+    justify-content: center;
+    margin-top: -140px;
+    z-index: 2;
+  }
+
+  .logo{
+    width: 100%;
+    background-image: unset;
+    padding: 0;
+    text-align: center;
+    z-index: 2;
+    margin-top: 70px;
+  }
+
+  .first-title{
+    font-size: 45px;
+    width: 90%;
+  }
+
+  .description{    
+    margin: 0;
+    padding: 10px;
+    width: 90%;
+  }
+
+  .left-section{
+    width: 85%;
+    margin-top: 25px;
+    margin-left: 25px;
+  }
+
+  .centre-image{
+    flex-direction: row;
+  }
+
+  .cat1{
+    width: 35%;
+    margin-left: 0;
+    height: 90%;
+    margin-right: 60px;
+  }
+
+  .cat-feed{
+    width: 75%;
+    height: 90%;
+    margin-top: -75px;
+    margin-right: -165px;
+  }
+
+  .cat2{
+    width: 35%;
+    height: 90%;
+    margin-left: 60px;
+
+  }
+
+  .card-form{
+    margin-left: 25px;
+    margin-top: 25px;
+  }
+
+  .second-title{
+    margin: 0;
+  }
+
+  .third-title{
+    padding-top: 45px;
+  }
+
+  .result{
+    background-image: unset;
+    width: 85%;
+    padding: 10px;
+    margin-left: 10px;
+  }
+
+  .grass{
+    width: 100%;
+  }
+
+  .cat-img{
+    width: 90%;
+    height: 90%;
+    display: flex;
   }
 }
